@@ -1,0 +1,258 @@
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins-Regular.ttf)
+ }
+
+	.titulo-secao{
+		font-family: poppins !important;
+	}
+	.titulo{
+	font-family: poppins !important;
+	}
+ 	h1, h2, h3, h4, h5, h6, p{
+		font-family: poppins !important;
+	}
+
+	.corpo-slider-principal {
+		font-family: poppins !important;
+	}
+
+	.corpo-apresentacao {
+		font-family: poppins !important;
+	}
+
+	.navbar li {
+		font-family: poppins !important;
+	}
+
+	.menu-rodape {
+		font-family: poppins;
+	}
+
+	.area-atuacao{
+		font-family: poppins;
+	}
+
+
+	.tree ul {
+		padding-top: 20px; position: relative;
+		
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+	}
+	
+	.tree li {
+		float: left; text-align: center;
+		list-style-type: none;
+		position: relative;
+		padding: 20px 1px 0 5px;
+		
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+	}
+	
+	
+	.tree #my_nucleo{
+	
+		border: #472774 solid 1px;
+		color: #472774;
+		position: relative;
+		top: -22px;
+	}
+	
+	.tree #my_gestao{
+	
+	border: #928e8e solid 1px;
+	color: #696969;
+	position: relative;
+		top: -22px;
+	}
+	
+	.tree #my_coordencao{
+	
+	border: #6f4ca1 solid 1px;
+	color: #6f4ca1;
+	position: relative;
+		top: -21px;
+	
+	}
+	
+	#coordencao_do_programa{
+		position: relative;
+		top: -21px;
+	}
+	
+	 #my_comite{
+	position: relative;
+		top: -21px;
+	
+	}
+	
+	#secretaria_de_estado_civil{
+	position: relative;
+	left: 62px;
+	}
+	
+	ul.ba {
+		list-style-type: none;
+	}
+	
+	.nav{
+		list-style:none ;
+	}
+	
+	
+	/*We will use ::before and ::after to draw the connectors*/
+	/*mudei aqui*/
+	.tree li::before, .tree li::after {
+		content: '';
+		position: absolute; top: 0; right: 50%;
+		border-top: 1px solid #ccc;
+		width: 50%; height: 20px;
+	}
+	
+	.tree li::after{
+		right: auto; left: 50%;
+		border-left: 1px solid #ccc;
+	}
+	
+	.tree #comite_tree{
+		content: '';
+		position: relative;
+		top: 1px;
+		right: -25%;
+	   /* border-top: 1px solid #ccc; */
+		width: 51%;
+		height: 25px;
+	   list-style: none;
+	}
+	
+	.tree #especial_tree{
+		position: relative;
+		right: -282px;
+		top: 1px;
+		list-style: none;
+	
+	}
+	
+	.tree #super_tree{
+		position: relative;
+		top: -21px;
+	}
+	
+	.tree #nucleo_tree {
+		position: relative;
+		left: -121px;
+	  list-style: none;
+	}
+	
+	.tree #tree_gestao {
+		position: relative;
+		top: -105px;
+		left: 89px;
+		list-style: none;
+	}
+	
+	.tree #coorde_tree {
+		position: relative;
+		right: -310px;
+		 top: -210px;
+		list-style: none;
+	}
+	
+	.tree #estado_civil{
+		position: relative;
+		left: -33px;
+		list-style: none;
+	}
+	
+	/*We need to remove left-right connectors from elements without 
+	any siblings*/
+	.tree li:only-child::after, .tree li:only-child::before {
+		display: none;
+	}
+	
+	/*Remove space from the top of single children*/
+	.tree li:only-child{ padding-top: 0;}
+	
+	/*Remove left connector from first child and 
+	right connector from last child*/
+	.tree li:first-child::before, .tree li:last-child::after{
+		border: 0 none;
+	}
+	/*Adding back the vertical connector to the last nodes*/
+	.tree li:last-child::before{
+		border-right: 1px solid #ccc;
+		border-radius: 0 5px 0 0;
+		-webkit-border-radius: 0 5px 0 0;
+		-moz-border-radius: 0 5px 0 0;
+	}
+	.tree li:first-child::after{
+		border-radius: 5px 0 0 0;
+		-webkit-border-radius: 5px 0 0 0;
+		-moz-border-radius: 5px 0 0 0;
+	}
+	
+	/*Time to add downward connectors from parents*/
+	.tree ul ul::before{
+		content: '';
+		position: absolute; top: 0; left: 57%;
+		border-left: 1px solid #ccc;
+		width: 0; height: 20px;
+	}
+	
+	.tree li a{
+		border: 1px solid #ccc;
+		padding: 25px 10px;
+		text-decoration: none;
+		color: #666;
+		font-family: arial, verdana, tahoma;
+		font-size: 11px;
+		display: inline-block;
+		
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+	}
+	
+	/*Time for some hover effects*/
+	/*We will apply the hover effect the the lineage of the element also*/
+	.tree #my_nucleo:hover,  .tree  #my_nucleo:hover+ul li a {
+		background: #472774; color: white; border: 1px solid #94a0b4;
+	}
+	
+	.tree #my_gestao:hover,  .tree #my_gestão:hover+ul li a  {
+		background:  #006b6b; color: white; border: 1px solid #94a0b4;
+	}
+	
+	
+	.tree #my_coordencao:hover,  .tree  #my_coordencao:hover+ul li a {
+		background: #6f4ca1; color: white; border: 1px solid #94a0b4;
+	}
+	
+	.tree #my_nucleo a:hover {
+		background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+	}
+	
+	/*Connector styles on hover*/
+	.tree li a:hover+ul li::after, 
+	.tree li a:hover+ul li::before, 
+	.tree li a:hover+ul::before, 
+	.tree li a:hover+ul ul::before{
+		border-color:   #94a0b4;
+	}
+
+
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p{
+	font-family: poppins !important;
+}
+*/

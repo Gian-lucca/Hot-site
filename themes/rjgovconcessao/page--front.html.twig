@@ -1,0 +1,87 @@
+<!--Arquivo de configurações básicas do tema, necessário-->
+<!--para que o tema seja reconhecido pelo framework.-->
+<!--author Gianlucca Augusto  <gianlucca.augusto@extreme.digital>-->
+<!--version 1.1-->
+<!--copyright Proderj 2022.-->
+
+{% include directory ~ "/partials/header.html.twig" %}
+<!-- Conteúdo da página -->
+
+	<section class="index-corpo"> <div class="index-corpo-imagem">
+		{{ page.sliderPrincipal }}
+	</div>
+	<div class="container">
+		<div class="index-corpo-texto">
+			{{ page.conteudoPrincipal }}
+		</div>
+		<hr class="gradiente">
+
+		<div class="index-corpo-imagem">
+			{{ page.SliderResultado }}
+		</div>
+
+		{% if page.sliderBunner  %}
+			<div class="slider-fixo" data-aos="zoom-in" data-aos-duration="2000">
+				{{ page.sliderBunner }}
+			</div>
+			<!-- /slider-fixo -->
+
+		{% endif %}
+
+		{% if page.areadeatuacao %}
+				<div class="hero-image">
+					<div class="hero-text">
+						{{page.areadeatuacao}}             
+					</div>
+				</div>
+			<hr class="gradiente">
+		{% endif %}
+
+		{% if page.galeriaFotos %}
+			<section data-aos="fade-left" class="programas-acoes branco aos-init aos-animate">
+				<div class="section-container">
+					<div class="titulo-secao">
+						<span>Galeria de Fotos</span>
+					</div>
+					{{ page.galeriaFotos }}
+				</div>
+			</section>
+			<!-- /Galeria de Fotos -->
+		{% endif %}
+
+		{% if page.noticiasPrincipal %}
+			<section class="banner branco noticias" class="programas-acoes branco aos-init aos-animate">
+				<div class="titulo">
+					<span>Notícias</span>
+				</div>
+				{{ page.noticiasPrincipal }}
+				<div class="lista-noticias-line">
+					<button class="lista-noticias">
+						<a id="A3" href="/noticias">Veja a lista completa de notícias</a>
+					</button>
+				</div>
+			</section>
+			<hr class="gradiente">
+		{% endif %}
+
+
+		{% if page.videosPrincipal %}
+			<section id="video" data-aos="fade-right" class="programas-acoes branco aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+				<div class="section-container" id="video-section">
+					<div class="titulo-secao">
+						<span>Vídeos</span>
+					</div>
+					{{ page.videosPrincipal }}
+					<div class="lista-noticias-line">
+						<button class="lista-video">
+							<a id="A3" href="/video">Veja a lista completa de vídeos</a>
+						</button>
+					</div>
+				</div>
+			</section>
+		{% endif %}
+
+
+	</div>
+</section>
+{% include directory ~ "/partials/footer.html.twig" %}

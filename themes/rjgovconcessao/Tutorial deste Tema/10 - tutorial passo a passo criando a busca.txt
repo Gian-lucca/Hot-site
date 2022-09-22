@@ -1,0 +1,145 @@
+////////////////////////////////////PARTE TÉCNICA/////////////////////////
+CRIANDO A BUSCA DO SITE 
+ OBS: É necessário ter o modúlo search_api instalado.
+ 
+ Instalando o módulo search_api
+ 	Desinstale o módulo Search
+ 	Instale os seguintes módulos: 
+ 		Database Search, 
+ 		Database Search Defaults, 	
+		Search API
+	
+Configurações > BUSCA E METADADOS > Search API
+	Add search server [Caso nao exista]
+		 Server name: Database Server
+		 Descrição: Database Server
+		 Minimum word length: 3
+		 
+	Add search index
+		Index name: Busca
+		Datasources [Conteúdo, Custom menu link, URL alternativa]
+		CONFIGURE THE CONTEÚDO DATASOURCE
+		EMPACOTAR
+			Which bundles should be indexed?
+				Only those selected
+			Empacotar [Notícias,Página básica]
+		INDEX OPTIONS
+			Index items immediately
+			Cron batch size:50
+		Server: Database Server
+		Descrição: Database Server
+			Save Add Fields
+		
+		Add fields to index Busca
+			Geral
+				Rendered HTML output (rendered_item) 
+					Papéis de usuário: Usuário Anônimo
+				save
+				Rendered HTML output                 type: fulltext 8.0
+			Conteúdo
+				Escrito em (created)                 type: data
+				Alterado (changed)                   type: data
+				Destacado no topo da página (sticky) type: booleano
+				Escrito por (uid)                    type: inteiro
+				Published (status)                   type: booleano
+				Tipo de conteúdo(type)         type: string/Expressão
+				Título (title) 		    type: fulltext 8.0
+			Save		
+			
+		 Processadores
+		 	HABILITADO
+		 		Acesso ao conteúdo
+		 		Entity status
+		 		Highlight
+		 		HTML filter
+		 		Ignore case
+		 		Stopwords
+		 		Tokenizer
+		 		Transliteration
+		 		
+		 	Processor settings
+		 		HTML filter
+		 			Enable this processor on the following fields
+		 				 Rendered HTML output
+		 		
+		 		Ignore case		 
+		 			Enable this processor on the following fields
+		 				Rendered HTML output
+		 				Conteúdo » Título
+		 				
+		 		Transliteration
+		 			Enable this processor on the following fields
+		 				 Rendered HTML output
+		 				 Conteúdo » Título
+		Clique em ver
+			START INDEXING NOW: index now
+		
+CRIANDO VIEW BUSCA
+	 Estrutura > Views
+	 	VER INFORMAÇÕES BÁSICAS
+			Nome da view: Busca
+			Machine name: busca
+			
+		CONFIGURAÇÕES DA VIEW
+			exibir: Index Busca
+			
+		CONFIGURAÇÕES DA PÁGINA
+			Criar página
+			Título da página: Busca
+			Formato de exibição: Grade
+			Itens a exibir: 20
+			Usar um paginador: Sim
+			
+		Título: Resultado da sua busca 
+		Exibições
+			FORMATO: Grade: COnfigurações
+				Número de colunas:1
+				Custom column class/Classe personalizada da coluna: resultado-busca
+				
+		Add Campos
+			Configura campo: Conteúdo datasource: Alterado (indexed field) remova este campo
+			
+		 Conteúdo datasource: Título (indexed field)
+		 	Link para Conteúdo
+		 	CONFIGURAÇÕES DE ESTILO
+		 		Elemento HTML: h2
+		 		
+		 CONFIGURAÇÕES DA PÁGINA
+		 	Endereço:/busca renomeie para Endereço:/resultados
+			Menu:Sem menu
+			Acesso:Irrestrito
+			CABEÇALHO
+				Global: Sumário do resultado (Global: Sumário do resultado)
+					Marque a opção:  Exibir mesmo se a view não tiver resultados
+					Exibição: <div  class="exibir-busca">Exibindo @start - @end de @total</div>
+					
+		 	COMPORTAMENTO QUANDO SEM RESULTADOS adicionar
+			 	Global: Área de texto (Global: Área de texto)
+				 	Conteúdo: <h3>Desculpe nada foi encontrado, faça uma nova busca</h3>
+		 CRITÉRIO DE FILTRAGEM
+		 	Fulltext search
+		 		marque esta opção
+		 			Expor este filtro para visitantes, para permitir que eles o alterem
+		 		 Obrigatório: sim
+		 		 Label: deixe vazio
+		 		 Identificador do filtro: busca
+		 		 Searched fields: conteúdo>>Título
+		 	Published Conteúdo datasource: true
+		CRITÉRIOS DE ORDENAÇÃO
+			Relevance Buscar: desc
+
+		AVANÇADO
+			Estilo do formulário exibido:Básico | Configurações
+				Texto do botão Enviar: Buscar
+				Desmarque: Allow people to choose the sort order/Permitir que as pessoas escolham a ordem de classificação
+			Formulário exposto no bloco:Sim
+			
+Colocando a Busca no Bloco do site
+	 Estrutura > Layout de blocos
+	 	Busca > Place blockin
+	 		Formulário exposto: busca-page_1
+	 	
+	 	Exibir título: desmarque esta opção
+	 	Identificador textual: formularioexpostobuscapage
+	 	
+			

@@ -1,0 +1,2297 @@
+/*author Luiz Felipe Diogo Fialho Silva  <luiz.felipe@proderj.rj.gov.br>
+version 1.1
+copyright Proderj 2022. */
+
+.table-coluna{
+    padding: 1% 10px;
+    width: 25%;
+}
+
+.table-coluna{
+    padding: 1% 10px;
+    width: 30%;
+}
+.table-conselho{
+    font-size: 11px!important;
+}
+#flexslider-3 li{
+    padding: 0 10px;
+}
+
+.area-atuacao{
+    font-size: 19px;
+}
+
+/*Infraestrutura Button*/
+
+.infraestrutura-buttons-grid {
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 18%;
+    justify-content: center;
+}
+
+.infraestrutura-button{
+    margin: 5px 5px 35px 5px;
+    font-family: poppins !important;
+    font-size: 16.5px;
+    cursor: pointer;
+    text-align: center;
+    height: 72px;
+    font-weight: bold;
+    background-color: #009ED3;
+    color: white;
+    border: 2px solid #009ED3;
+    border-radius: 8px;
+    width: 170px;
+}
+
+.infraestrutura-button:hover {
+    background-color: white;
+  }
+  
+  .infraestrutura-button:hover a{
+    color: #009ED3 !important;
+    text-decoration-line: none;
+    font-size: 14px;
+    transition: 500ms;
+  }
+
+  .infraestrutura-button a{
+    text-decoration-line: none;
+    color: white!important;
+}
+
+
+/*Dev Economico Button*/
+.deveconomico-buttons-grid {
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 18%;
+    justify-content: center;
+}
+
+.deveconomico-button{
+    margin: 5px 5px 35px 5px;
+    font-family: poppins !important;
+    font-size: 16.5px;
+    cursor: pointer;
+    text-align: center;
+    height: 72px;
+    font-weight: bold;
+    background-color: #A485C8;
+    color: white;
+    border: 2px solid #A485C8;
+    border-radius: 8px;
+    width: 170px;
+}
+
+.deveconomico-button:hover {
+    background-color: white;
+  }
+  
+  .deveconomico-button:hover a{
+    color: #A485C8 !important;
+    text-decoration-line: none;
+    font-size: 14px;
+    transition: 500ms;
+  }
+
+  .deveconomico-button a{
+    text-decoration-line: none;
+    color: white!important;
+}
+
+
+/* DEV SOCIAL BUTTON */
+.devsocial-buttons-grid {
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 18%;
+    justify-content: center;
+}
+
+.devsocial-button{
+    margin: 5px 5px 35px 5px;
+    font-family: poppins !important;
+    font-size: 16.5px;
+    cursor: pointer;
+    text-align: center;
+    height: 72px;
+    font-weight: bold;
+    background-color: #5096ab;
+    color: white;
+    border: 2px solid #5096ab;
+    border-radius: 8px;
+    width: 170px;
+}
+
+.devsocial-button:hover {
+    background-color: white;
+  }
+  
+  .devsocial-button:hover a{
+    color: #5096ab !important;
+    text-decoration-line: none;
+    font-size: 14px;
+    transition: 500ms;
+  }
+
+  .devsocial-button a{
+    text-decoration-line: none;
+    color: white!important;
+}
+
+
+
+.seta-pag-basica-left{
+    position: fixed;
+    top: 40%;
+    left: 5%;
+}
+
+.seta-pag-basica-right{
+    position: fixed;
+    top: 40%;
+    right: 5%;
+}
+
+
+
+.img-projetos-grid{
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    position: relative;
+    min-height: 75%;
+}
+
+
+footer {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 0px;
+}
+
+.flex-direction-nav a {
+    margin-left: -3%;
+    margin-right: -3%;
+}
+
+#flexslider-4 .slides > li {
+    width: 259px !important;
+    padding:0 10px;
+}
+
+#flexslider-4{
+    padding: 1% 0 0 0;
+}
+
+.titulo-noticias a {
+    color: #00508a!important;
+    font-weight: 600;
+}
+
+/*Buttons Projetos*/
+.card-button-row{
+    padding: 0 15%;
+}
+
+/*Governança Buttons*/
+
+.governanca-button {
+    padding: 10px 10px;
+    margin: 5px 5px 35px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    height: 65px;
+    /*box-shadow: 0 13px #0b6076;*/
+    color: #ffffff !important;
+    background-color: #005a92;
+    border: 2px solid #005a92;
+    width: 170px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.governanca-button:hover {
+    background-color:#009fe300;
+    transform: translateY(4px);
+    transition: 500ms;
+  }
+
+.governanca-button:hover a{
+    display: block;
+    color: #005a92!important;
+}
+
+.governanca-button:hover span{
+    display: none;
+    
+}
+
+.governanca-button a{
+    display: none;
+}
+
+
+.governanca-buttons-grid {
+    width: 127.5%;
+    left: -14%;
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
+}
+
+.governanca-button a{
+    text-decoration-line: none;
+    color: #ffffff !important
+}
+
+/*Botões Ouvidoria*/
+
+.ouvidoria-button {
+    padding: 10px 10px;
+    margin: 5px 5px 35px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    height: 65px;
+    /*box-shadow: 0 13px #0b6076;*/
+    color: #005a92 !important;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 170px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.ouvidoria-button:hover {
+    background-color:#009fe300;
+    transform: translateY(4px);
+    transition: 500ms;
+  }
+
+.ouvidoria-button:hover a{
+    display: block;
+    color: #ffffff!important;
+}
+.ouvidoria-button:hover span{
+    display: none;
+    
+}
+
+.ouvidoria-button a{
+    display: none;
+}
+
+.full-name-button {
+    font-size: 13px!important;
+    margin-top: 0px!important;
+    text-align: center!important;
+}
+
+
+.ouvidoria-buttons-grid {
+    width: 127.5%;
+    left: -14%;
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#009fe3, #005a92);
+    padding: 1%;
+    justify-content: center;
+}
+
+.ouvidoria-button a{
+    text-decoration-line: none;
+    color: #005a92 !important
+}
+
+.cabecalho-branco-logo{
+    display: flex;
+}
+
+.section-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.views-view-grid{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#flexslider-2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo-gov-cabecalho-1{
+    height: 50px!important;
+}
+ 
+
+.logo-gov-cabecalho-2 {
+    height: 75px!important;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+.logo-gov-cabecalho{
+    display: flex;
+    margin-top: 2%;
+}
+
+.socia-media-ft li {
+    margin: 0 10%;
+}
+
+.socia-media-ft a{
+    color: white;
+    
+}
+
+.socia-media-ft ul{
+    display: flex;
+    list-style: none;
+    margin: -80% 0 0 0;
+    
+}
+
+.views-field-field-imagem-slider-bunner {
+    margin-bottom: 40px;
+}
+
+.logo-rodape {
+    width: 25%;
+    display: flex;
+    margin: -10% -10% 0 0;
+}
+
+
+.logo-rodape1{
+    width: 100%;
+}
+
+.logo-rodape2{
+    width: 100%;
+    margin: 0 0 0 10%;
+}
+
+.item-menu-rodape {
+    color: #ffffff;
+    font-style: none;
+    font-size: 18px;
+    text-decoration-line: none;
+}
+
+.menu-rodape {
+    list-style: none;
+}
+
+#flexslider-3{
+    margin-bottom: 65px;
+}
+
+#flexslider-2 a{
+    color: #ffffff00;
+}
+
+/*Banner*/
+
+.link-slider-bunner {
+    color: transparent;
+    font-size: 253px;
+    top: -40px;
+    left: 10%;
+    position: relative;
+}
+
+.views-field-field-link-slider-bunner {
+    color: #fff;
+    position: absolute;
+    z-index: 9999;
+    bottom: 40px;
+    text-transform: revert;
+    font-size: 24px;
+    background: transparent;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.titulo-slider-principal {
+    margin-left: 8%;
+    position: absolute;
+    top: 30%;
+    font-weight: 800;
+    font-size: 2em;
+    width: 25%;
+    color: white !important;
+    bottom: 10px;
+}
+
+.corpo-slider-principal {
+    margin-left: 8%;
+    position: absolute;
+    top: 30%;
+    font-weight: 600;
+    font-size: 21px !important;
+    text-align: left;
+    width: 32%;
+    color: white !important;
+    bottom: 10px;
+}
+
+.corpo-slider-principal h2 {
+    font-size: 45px !important;
+    line-height: 1em!important;
+    font-weight: bold !important;
+    text-align: left !important;
+}
+
+.corpo-apresentacao font {
+    font-weight: 600 !important;
+    font-size: 23px !important;
+    font-family: poppins !important;
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.container:after, .container:before {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+#edit-files-upload {
+    line-height: normal;
+    width: 100% !important;
+}
+
+.align-right {
+    float: right;
+    /* margin-left: 82px !important; */
+    margin-right: -2px;
+}
+
+.menu-superior a {
+    font-size: 14px !important;
+}
+
+.menuArea {
+    margin-left: 275px !important;
+}
+.tela
+/* Início Cabeçalho */
+
+#cabecalho{
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.cabecalho-cinza{
+    background-color: #363636;
+    width: 100%;
+    height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+.cabecalho-cinza-completo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 78%;
+}
+.linkGoverno-redesSociais{
+    display: flex;
+    padding-top: 13px;
+}
+#linkGoverno{
+    padding: 1px 20px 0px 0px;
+}
+.cabecalho-cinza a:link{
+    color: white;
+}
+.cabecalho-cinza a:visited{
+    color: white;
+}
+.cabecalho-cinza a:active{
+    color: white;
+}
+.cabecalho-cinza li{
+    display: inline-block;
+    padding-left: 5px;
+}
+.cabecalho-cinza ul{
+    display: inline-block;
+}
+#redeSocial{
+    width: auto;
+    height: 18px;
+}
+.links{
+    display: flex;
+    padding-top: 15px;
+}
+.links li{
+    padding-left: 20px;
+}
+.cabecalho-branco-completo{
+    display: flex;
+    /*height: 90px;*/
+    height: auto;
+}
+.cabecalho-branco-completo img{
+    width: 40%;
+    margin-bottom: 1%;
+    height: auto;
+    
+}
+#logo-governo{
+    width: auto;
+    height: 65px;
+}
+.cabecalho-branco{
+    font-family: 'Oswald', sans-serif;
+    /*font-size: 18px;*/
+    margin-top: 10px;
+    font-weight: bold;
+    width: 95%;
+}
+.cabecalho-branco-completo{
+    justify-content: space-between;
+}
+.navbar{
+    padding-top: 20px;
+    font-size: 15.2px;
+    margin-right: 98px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar a{
+    color: #006aa7;
+    white-space: nowrap;
+    font-size: 15px;
+    text-decoration-line: none;
+}
+.navbar span{
+    color: #363636;
+}
+.navbar span:hover{
+    color: #8dc63f;
+}
+.navbar a:hover{
+    color: #8dc63f;
+}
+
+.menu-column>h4>ul>li>li>li>li{
+    margin-left: 37px;
+}
+
+
+/* Sandwich */
+
+#menuArea{
+    display: none;
+    height: 44px;
+    width: 44px;
+    border: 1px solid #00508a;
+    border-radius: 23px;
+    background-color: #00508a;
+    margin-top: 13px;
+    margin-left: 95%;
+    position: absolute;
+    z-index: 99;
+}
+#menuArea input{
+    display: none;
+}
+.open {
+    background-color: white;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 19px;
+}
+
+.open:before {
+    content: "";
+    background-color: white;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    position: relative;
+    top: -8px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.open:after {
+    content: "";
+    background-color: white;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    position: relative;
+    top: 4px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.menuOpen {
+    width: 24px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin-right: 9px;
+}
+
+.menuOpen:hover .open:before {
+    top: -9px;
+}
+
+.menuOpen:hover .open:after {
+    top: 5px;
+}
+
+.menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255);
+}
+
+.menu label {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.menu .menuContent {
+    position: relative;
+    top: 45%;
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -170px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.menu ul li a {
+    display: block;
+    color: #00508a;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.menu ul li a:hover {
+    color: #8dc63f;
+}
+
+.menu ul li:hover {
+    background: white;
+}
+
+.menuEffects {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.menuEffects ul {
+    transform: translateY(0%);
+    transition: all 0.5s;
+}
+
+#menuToggle:checked ~ .menuEffects {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+}
+
+#menuToggle:checked ~ .menuEffects ul {
+    opacity: 1;
+}
+
+#menuToggle:checked ~ .menuOpen .open {
+    background-color: transparent;
+}
+
+#menuToggle:checked ~ .menuOpen .open:before {
+    content: "";
+    background-color: #00508a;
+    transform: rotate(45deg);
+    position: fixed;
+    top: 11%;
+    right: 8%;
+    z-index: 1;
+}
+
+#menuToggle:checked ~ .menuOpen .open:after {
+    content: "";
+    background-color: #00508a;
+    transform: rotate(-45deg);
+    position: fixed;
+    top: 11%;
+    right: 8%;
+    z-index: 1;
+}
+
+#menuToggle:not(:checked) ~ .menuEffects ul {
+    transform: translateY(-30%);
+}
+
+/* Fim Cabecalho */
+
+/* Conteúdo Index */
+
+#index-corpo-imagem{
+    width: 100%;
+    height: auto;
+}
+.index-corpo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.index-corpo h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #006aa7;
+}
+.index-corpo h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.corpo-apresentacao {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    /* font-weight: bold; */
+    color: #6c6363;
+    text-align: center!important;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+.index-corpo p{
+    font-family: 'Oswald', sans-serif;
+    /*font-size: 18px;*/
+    /*font-weight: bold;*/
+    /*text-align: justify;*/
+}
+.index-corpo-texto{
+    margin-top: 50px;
+}
+.index-corpo a:link{
+    color: white;
+    text-decoration-line: none;
+}
+.index-corpo a:visited{
+    color: white;
+}
+.index-corpo a:active{
+    color: white;
+}
+.index-corpo a:hover{
+    text-decoration: underline;
+}
+.index-corpo-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+    margin-top: 50px;
+}
+.index-corpo-card{
+    display: flex;
+    width: 48%;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+#index-ladoDireito{
+    display: block;
+}
+.index-corpo-card:hover{
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 50%), 0 4px 20px 0 rgb(0 0 0 / 40%);
+}
+hr.gradiente {
+    margin-top: 50px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+#banner-texto-p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#banner-texto-h2{
+    font-size: 24px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.hero-text li{
+    display: inline-block;
+}
+
+.align-left, .align-right{
+    padding: 10px !important;
+}
+/* The hero image */
+
+.hero-image {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 50px;
+    width: 128%;
+    height: 366px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background: linear-gradient(#0578BE, #004F914F);
+    left: -14%;
+}
+
+.area-title{
+    color: white !important;
+    text-align: center !important;
+    margin: 26px auto !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* Fim Index */
+/* Início audiencia */
+
+.audiencia-corpo h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #006aa7;
+}
+.audiencia-corpo h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.audiencia-corpo p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.audiencia-corpo a:link{
+    color: black;
+}
+.audiencia-corpo a:visited{
+    color: black;
+}
+.audiencia-corpo a:active{
+    color: black;
+}
+.audiencia-corpo a:hover{
+    text-decoration: underline;
+}
+.audiencia-corpo-textos li{
+    padding-right: 20px;
+    display: inline-block;
+}
+.audiencia-corpo-pdf ul{
+    text-indent: 0px;
+    list-style-image: url("../img/pdf.png");
+    padding-left: 19px;
+    padding-top: 20px;
+}
+.audiencia-corpo-pdf li{
+    padding-left: 15px;
+}
+
+/* Fim audiencia */
+/* Início duvidas */
+
+.corpo{
+    margin-top: 30px;
+}
+.corpo h1{
+    /*font-family: 'Oswald', sans-serif;*/
+    font-size: 24px;
+    font-weight: bold;
+    /*margin-top: 50px;*/
+    color: #006aa7;
+    text-align: center;
+}
+
+.corpo h6{
+    text-align: center;
+    color: #006aa7;
+}
+
+.corpo h2{
+    /*font-family: 'Oswald', sans-serif;*/
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #006aa7;
+}
+.corpo p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    margin-top: 20px;
+    /*padding-left: 30px;*/
+    text-indent: 0px;
+}
+.corpo a:link{
+    color: black;
+}
+.corpo a:visited{
+    color: black;
+}
+.corpo a:active{
+    color: black;
+}
+.corpo a:hover{
+    text-decoration: underline;
+}
+.corpo-textos ul{
+    text-indent: 0px;
+    list-style-image: url("../img/pdf.png");
+    padding-left: 19px;
+}
+.corpo-pdfs a:link{
+    color: black;
+}
+.corpo-pdfs a:visited{
+    color: black;
+}
+.corpo-pdfs a:active{
+    color: black;
+}
+.corpo-pdfs a:hover{
+    text-decoration: underline;
+}
+.corpo-pdfs ul{
+    text-indent: 0px;
+    list-style-image: url("../img/pdf.png");
+}
+.corpo-pdfs li{
+    padding: 5px 0px 5px 0px;
+}
+#corpo-pdfs-xls{
+    list-style-image: url("../img/excel.png");
+}
+
+.arquivos-principal a:link{
+    color: black;
+}
+.arquivos-principal a:visited{
+    color: black;
+}
+.arquivos-principal a:active{
+    color: black;
+}
+.arquivos-principal a:hover{
+    text-decoration: underline;
+}
+
+.field__item{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    /*font-weight: bold;*/
+    margin-top: 20px;
+    /*padding-left: 30px;*/
+    text-indent: 0px;
+    text-align: justify;
+}
+.field__item a{
+    font-weight: bold;
+    margin-top: 20px;
+    /*padding-left: 30px;*/
+    text-indent: 0px;
+    text-align: justify;
+}
+
+.menu-column h4 {
+    display: none;
+}
+/* Fim Dúvidas */
+/* Início documentos */
+
+.documentos-corpo{
+    margin-top: 30px;
+}
+.documentos-corpo h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #006aa7;
+}
+.documentos-corpo h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.documentos-corpo p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 30px;
+    text-indent: 0px;
+}
+.documentos-corpo a:link{
+    color: black;
+}
+.documentos-corpo a:visited{
+    color: black;
+}
+.documentos-corpo a:active{
+    color: black;
+}
+.documentos-corpo a:hover{
+    text-decoration: underline;
+}
+.documentos-corpo-textos ul{
+    text-indent: 0px;
+    list-style-image: url("../img/pdf.png");
+    margin-left: 19px;
+}
+/* Fim documentos */
+/*formulário de Busca*/
+.navbar .form--inline{
+    float: right;
+}
+.form-item-busca {
+    float: left !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    /*width: 50%;*/
+    padding-bottom: 10px !important;
+}
+
+#edit-busca {
+    /*height: 30px;*/
+    padding-left: 3px;
+    border: none;
+    font-size: 10pt;
+    /*float: left;*/
+    /*padding-left: 15px;*/
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+    /*margin-top: 10px;*/
+    border: solid 1px #00508a;
+    /*width: 180px;*/
+    width: 8em;
+    /*float: right;*/
+}
+#edit-submit-busca {
+    /*float: right;*/
+    /*padding-left: 2px;
+    padding-right: 2px;*/
+
+    font-size: 10pt;
+    padding: 2px;
+    margin: 2px 0 0 0;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background: #cccccc;
+    /*height: 30px;*/
+    width: 50px;
+    color: #00508a;
+    cursor: pointer;
+    /*margin-top: 10px;*/
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+#edit-busca--2 {
+    /*height: 30px;*/
+    padding-left: 3px;
+    border: none;
+    font-size: 10pt;
+    /*float: left;*/
+    /*padding-left: 15px;*/
+    -webkit-border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 0px 0px 10px;
+    /*margin-top: 10px;*/
+    border: solid 1px #00508a;
+    /*width: 180px;*/
+    width: 8em;
+}
+#edit-submit-busca--2 {
+    /*float: right;*/
+    /*padding-left: 2px;
+    padding-right: 2px;*/
+
+    font-size: 10pt;
+    padding: 2px;
+    margin: 2px 0 0 0;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background: #cccccc;
+    /*height: 30px;*/
+    width: 50px;
+    color: #00508a;
+    cursor: pointer;
+    /*margin-top: 10px;*/
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+.contextual {
+    position: unset !important;
+}
+/*página de busca*/
+/*form*/
+.inputs {
+    width: 100%;
+    border: solid 1px #006aa7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*fim form*/
+.exibir-busca {    
+    font-weight: bold;
+    border-bottom: 1px #ccc solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.resultado-busca{
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.resultado-busca :hover{
+    text-decoration: underline;
+}
+/*paginação*/
+.pager{
+    background-color: #f4f4f4;
+    padding: 5px;
+}
+.pager a{
+    font-size: 18px;
+}
+/*Fim formulário de Busca*/
+/* Início Formulario */
+
+.contribuicao-form{
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #006aa7;
+    border-radius: 10px;
+    padding: 40px;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+#flex-filha{
+    width: 48%;
+}
+#flex-filha2{
+    width: 20%;
+}
+#inputs{
+    width: 100%;
+    border: solid 1px #006aa7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#inputs2{
+    width: 100%;
+    border: solid 1px #006aa7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+#labels{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.telefone-cpf-nascimento{
+    margin-top: 20px;
+}
+.maisInformacoes{
+    margin-top: 20px;
+}
+#textarea{
+    width: 100%;
+    resize: none;
+    height: 120px;
+    border: solid 1px #006aa7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.arquivo{
+    margin-top: 40px;
+    text-align: center;
+}
+#labelArquivo{
+    background-color: #ffffff;
+    border: 3px dashed #e8e1e1;
+    padding: 10px 70px 10px 70px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+#anexo{
+    display: none;
+}
+.alinhar{
+    text-align: center;
+    margin-top: 40px;
+}
+.botao{
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #00508a;
+    border: solid 1px #00508a;
+    width: 140px;
+    border-radius: 10px;
+}
+.botao:hover{
+    border: solid 1x #00508a;
+    background-color: white;
+    color: #00508a;
+}
+.user-login-form {
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #006aa7;
+    border-radius: 10px;
+    padding: 40px
+}
+.user-login-form input{
+    width: 100%;
+    border: solid 1px #006aa7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.user-login-form .button {
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #00508a;
+    border: solid 1px #00508a;
+    width: 200px !important;
+    border-radius: 10px;
+}
+.user-login-form .button:hover{
+    border: solid 1x #00508a;
+    background-color: white;
+    color: #00508a;
+}
+.reload-captcha-wrapper{
+    display: none;
+}
+.user-pass {
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #006aa7;
+    border-radius: 10px;
+    padding: 40px
+}
+.user-pass input{
+    width: 100%;
+    border: solid 1px #006aa7;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.user-pass .button {
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #00508a;
+    border: solid 1px #00508a;
+    width: 200px !important;
+    border-radius: 10px;
+}
+.user-pass .button:hover{
+    border: solid 1x #00508a;
+    background-color: white;
+    color: #00508a;
+}
+
+.contato-form{
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #006aa7;
+    border-radius: 10px;
+    padding: 40px;
+}
+/* Início Rodapé */
+
+.back-to-top {
+    background-color: grey;
+    border-radius: 65px;
+    bottom: 14px;
+    box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 22px;
+    width: 40px;
+    z-index: 3;
+    
+}
+.back-to-top::after {
+    content: '▲';
+    display: flex;
+    justify-content: center;
+    padding-left: 1px;
+    padding-top: 10px;
+}
+.rodape{
+    background-image: linear-gradient(#009fe3, #005a92);
+    height: 210px;
+    margin-top: 39px;
+}
+
+.rodape-completo{
+    display: flex;
+    padding-top: 120px;
+    justify-content: space-between;
+    margin: 0px 210px 0px 210px;
+    padding-top: 170px
+}
+#rodape-logo-governo{
+    width: auto;
+    height: 75px;
+}
+#rodape-logo-proderj{
+    width: auto;
+    height: 55px;
+}
+.tela-menor{
+    display: none  !important;
+    color: #006aa7;
+}
+.tela-menor a{
+    color: #006aa7;
+    font-size:0.6em
+}
+.tela-menor ul{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    
+}
+.tela-menor li{
+    padding-left: 5px;
+    display: inline-block;
+}
+.tela-normal{
+    float:right; 
+    width:15em   
+}
+.sociais{
+    float: right;
+    padding-right: 1em;
+}
+.sociais ul{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.sociais li{
+    padding-left: 5px;
+}
+
+.logo-cabecalho-gov{
+    width: 230px !important;
+    height: 56px !important;
+    background: url("/sites/cidade-integrada/themes/rjgovconcessao/img/logo-gov-estado-menu.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    top: -18px !important;
+    left: 0px;
+    margin-left: -127px;
+}
+
+.lista-noticias {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: rgb(0, 80, 138);
+    cursor: pointer;
+    padding: 4px 10px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 25px;
+}
+
+.titulo{
+    font-weight: 600;
+    font-size: 23px;
+    color: #00508a;
+    /* margin-left: 50%; */
+    text-transform: uppercase;
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo-secao{
+    font-weight: 600;
+    font-size: 23px;
+    color: #00508a;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    
+}
+
+select#edit-items-per-page {
+    padding: 3px !important;
+    background-color: #00508a !important;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+input#edit-submit-noticias {
+    margin-left: 0 !important;
+    background-color: #00508a !important;
+    color: #fff !important;
+    padding: 5px !important;
+    border: 0 !important;
+    font-family: sans-serif;
+    margin-top: 21px;
+}
+
+.video-pagina{
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.form-textarea-wrapper textarea {
+    margin-top: 10px !important;
+}
+
+.video-noticia{
+    width: 200% !important;
+    height: auto !important;
+    justify-content: center !important;
+    display: inline-flex !important;
+    margin-left: 100%;
+}
+
+.lista-video{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    background-color: rgb(0, 80, 138);
+    cursor: pointer;
+    padding: 4px 10px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 25px;
+    
+}
+
+.video-pg{
+    width: 30%;
+    height: auto;
+}
+
+.MuiAvatar-root .MuiAvatar-circular .MuiAvatar-colorDefault .css-154ogbs{
+    background: rgb(102 184 243);
+}
+
+#calendario p{
+    margin-top: 5px !important;
+}
+
+.acesse{
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    height: 38rem;
+}
+
+.acesse2{
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 6px 16px !important;
+    text-decoration: none;
+    display: block;
+}
+
+@media only screen and (min-width: 2341px) and (max-width: 2840px){
+    .menu-rodape {
+        margin: -6% 0 0 -10%;
+    }
+    
+    .logo-rodape {
+        margin: -6% -10% 0 0;
+    }
+    .link-slider-bunner {
+        font-size: 268px;
+    }
+
+}
+@media only screen and (min-width: 1831px) and (max-width: 2340px){
+    .menu-rodape {
+        margin: -8% 0 0 -10%;
+    }
+    
+    .logo-rodape {
+        margin: -8% -10% 0 0;
+    }
+
+    .link-slider-bunner {
+        font-size: 210px;
+    }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1830px){
+
+    .link-slider-bunner {
+        font-size: 160px;
+    }
+
+    .menu-rodape {
+        margin: -10% 0 0 -10%;
+    }
+
+}
+@media only screen and (min-width: 840px) and (max-width: 1080px){
+.corpo-slider-principal {
+    top: 0%;  
+    width: 55%;
+
+}
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1400px){
+    .menu-rodape {
+        list-style: none;
+        margin: -15% 0 0 -10%;
+    }
+
+    .link-slider-bunner {
+        font-size: 124px;
+    }
+    
+    .corpo-slider-principal {
+        margin-left: 2%;
+        top: 10%;
+        width: 45%;
+    
+    }
+   
+    .logo-rodapé {
+        width: 40%;
+        margin: -7% -15% 0 0;
+    }
+} 
+
+@media only screen and (min-width: 1652px) and (max-width: 2000px){
+.noticia-principal-gride img{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    margin-right: 10%;
+}
+.banner-principal img{
+    margin-left: 80%;
+}
+
+
+
+
+}
+/*@media only screen and (min-width: 962px) and (max-width: 1066px){*/
+@media only screen and (min-width: 1550px) and (max-width: 1651px){
+
+    .noticia-principal-gride img {
+        width: 100% !important;
+        float: left !important;
+    }
+
+    .titulo {
+        margin-left: 588px !important;
+    }
+}
+
+@media only screen and (min-width: 962px) and (max-width: 1080px){
+    /* Index */
+    .navbar{
+        display: none;
+        visibility:hidden
+    }
+    .tela-menor{
+        display: block !important;
+    }
+    .tela-normal{
+        display: none !important;
+    }
+    #menuArea{
+        display: block;
+    }
+
+}
+@media only screen and (min-width: 826px) and (max-width: 961px){
+    /* Index */
+    .tela-menor{
+        display: block !important;
+    }
+    .tela-normal{
+        display: none !important;
+    }
+    #menuArea{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .cabecalho-cinza{
+        height: 100px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .cabecalho-cinza-completo{
+        display: block;
+    }
+    .linkGoverno-redesSociais{
+        display: block;
+        padding-top: 0px;
+    }
+    #linkGoverno{
+        padding: 0px 0px 0px 0px;
+    }
+    .index-redesSociais{
+        padding-top: 5px;
+    }
+    .links{
+        display: block;
+        padding-top: 5px;
+    }
+    
+    .back-to-top{
+        display: none;
+        width: 30px;
+        height: 28px;
+        right: 4px;
+    }
+    .rodape-completo{
+        margin: 0px 50px 0px 50px;
+        
+    }
+    #labels{
+        padding-top: 10px;
+    }
+    #flex{
+        display: block;
+    }
+    .telefone-cpf-nascimento {
+        margin-top: 0px;
+    }
+    #inputs{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #inputs2{
+        margin-bottom: 10px;
+    }
+    #flex-filha{
+        width: 100%;
+    }
+    #flex-filha2{
+        width: 100%;
+    }
+    .back-to-top::after{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 496px) and (max-width: 825px){
+    .tela-menor{
+        display: block !important;
+    }
+    .tela-normal{
+        display: none !important;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    #logo-governo{
+        height: 45px;
+        margin-top: 10px;
+    }
+    .index-corpo-cards{
+        display: block;
+    }
+    .index-corpo-card{
+        width: 100%;
+    }
+    #index-ladoDireito{
+        margin-top: 30px;
+    }
+    .cabecalho-cinza{
+        height: 110px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .cabecalho-cinza-completo{
+        display: block;
+    }
+    .linkGoverno-redesSociais{
+        display: block;
+        padding-top: 0px;
+    }
+    #linkGoverno{
+        padding: 0px 0px 0px 0px;
+    }
+    .index-redesSociais{
+        padding-top: 5px;
+    }
+    .links{
+        display: block;
+        padding-top: 5px;
+    }
+    #menuArea{
+        display: block;
+        margin-top: 18%;
+        margin-left: 45%;
+    }
+    .navbar{
+        display: none;
+    }
+    .rodape-completo{
+        margin: 0px 5px 0px 5px;
+    }
+    #labels{
+        padding-top: 10px;
+    }
+    #flex{
+        display: block;
+    }
+    .telefone-cpf-nascimento {
+        margin-top: 0px;
+    }
+    #inputs{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #inputs2{
+        margin-bottom: 10px;
+    }
+    #flex-filha{
+        width: 100%;
+    }
+    #flex-filha2{
+        width: 100%;
+    }
+    .back-to-top::after{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .back-to-top{
+        width: 30px;
+        height: 28px;
+        right: 4px;
+    }
+    .hero-image {
+        height: 290px;
+    }
+
+   
+}
+@media only screen and (max-width: 495px){
+    .table-linha {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .table-coluna4{
+        padding: 0;
+        width: 100%;
+    }
+
+    .table-coluna{
+        padding: 0;
+        width: 100%;
+    }
+    .menu-rodape {
+        text-align: center;
+        margin: -40% 0 0 0;
+    }
+    
+    .rodape-completo {
+        display: block;
+    }
+    
+    .rodape {
+        height: 320px;
+    }
+    
+    .logo-rodape {
+        width: 80%;
+        margin: 20% 0 0 8%;
+    }
+    
+    .socia-media-ft li {
+        margin: 0 2%;
+    }
+
+    .socia-media-ft ul {
+        margin: 13% 34% -10% 34%;
+    }
+    
+    .link-slider-bunner {
+        font-size: 72px;
+        top: 28px;
+    }
+    
+    .logo-cabecalho-gov{
+        width: 164px !important;
+        height: 43px !important;
+        margin-left: -35px !important;
+    }
+
+    .cabecalho-branco-logo {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .cabecalho-branco-completo img {
+        width: 100% !important;
+        height: auto !important;
+        
+    }
+
+    .cabecalho-branco-completo {
+        height: 128px;
+    }
+
+    .corpo-slider-principal {
+        top: 10%;
+        font-size: 13px!important;
+        width: 78%;
+    }
+    
+    
+    .corpo-slider-principal h2 {
+        font-size: 13px!important;
+    }
+
+    .noticia-principal-gride img {
+        padding: 3px !important;
+    }
+
+    .noticia-principal-gride {
+        width: 85% !important;
+        padding: 3px !important;
+    }
+
+    /*.tela-menor{
+        display: block !important;
+    }*/
+    .tela-normal{
+        display: none !important;
+    }
+    #logo-governo{
+        height: 45px;
+        margin-top: 10px;
+    }
+    .index-corpo-cards{
+        display: block;
+    }
+    .index-corpo-card{
+        width: 100%;
+    }
+    #index-ladoDireito{
+        margin-top: 30px;
+    }
+    .cabecalho-cinza{
+        height: 110px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .cabecalho-cinza-completo{
+        display: block;
+    }
+    .linkGoverno-redesSociais{
+        display: block;
+        padding-top: 0px;
+    }
+    #linkGoverno{
+        padding: 0px 0px 0px 0px;
+    }
+    .index-redesSociais{
+        padding-top: 5px;
+    }
+    .links{
+        display: block;
+        padding-top: 5px;
+    }
+    #menuArea{
+        display: block;
+        margin-top: 18%;
+        margin-left: 45%;
+    }
+    .navbar{
+        display: none;
+    }
+    .hero-image{
+        height: 330px;
+    }
+    .rodape-completo{
+        margin: 0px 5px 0px 5px;
+    }
+    #rodape-logo-proderj{
+        height: 30px;
+        margin-right: 30px;
+    }
+    #rodape-logo-governo{
+        height: 40px;
+        margin-left: 30px;
+    }
+    #labels{
+        padding-top: 10px;
+    }
+    #flex{
+        display: block;
+    }
+    .telefone-cpf-nascimento {
+        margin-top: 0px;
+    }
+    #inputs{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #inputs2{
+        margin-bottom: 10px;
+    }
+    #flex-filha{
+        width: 100%;
+    }
+    #flex-filha2{
+        width: 100%;
+    }
+    #labelArquivo{
+        padding: 10px 10px 10px 10px;
+    }
+    #textarea{
+        height: 330px;
+    }
+    .back-to-top::after{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .back-to-top{
+        width: 30px;
+        height: 28px;
+        right: 4px;
+    }
+    .hero-image {
+        height: 500px !important;
+        width: 128% !important;
+    }
+    
+    .area-atuacao{
+        font-size: 15px;
+    }
+    
+    .area-atuacao img{
+        width: auto!important;
+        height: auto;    
+    }
+
+    .lista-noticias {
+        margin-left: 0px !important;
+    }
+
+    .align-left {
+        float: left;
+        width: auto !important;
+        /*height: 177px !important;*/
+        margin-left: -23px;
+    }
+
+    .align-center {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .titulo{
+        margin-left: 100px !important;
+    }
+    .align-right {
+        float: right;
+        /* margin-left: 82px !important; */
+        margin-right: -22px !important;
+    }
+
+    .video-noticia {
+        width: 414% !important;
+        height: auto !important;
+        justify-content: center !important;
+        display: inline-flex !important;
+        margin-left: 0px !important;
+    }
+
+    .lista-video {
+        margin-left: 13px !important;
+    }
+
+    .video-pg {
+        width: auto;
+        height: auto;
+    }
+
+    .banner-principal img {
+        width: 341px !important;
+        height: auto !important;
+    }
+
+}
+@media only screen and (max-width: 823px) and (orientation: landscape){
+    
+    .link-slider-bunner {
+        font-size: 72px;
+        top: 28px;
+    }
+
+    .tela-menor{
+        display: block !important;
+    }
+    .tela-normal{
+        display: none !important;
+    }
+    .menu .menuContent{
+        top: 0px;
+        margin-top: 60px;
+    }
+    .menu ul li a {
+        font-size: 14px;
+    }
+    #logo-governo{
+        height: 45px;
+        margin-top: 10px;
+    }
+    .index-corpo-cards{
+        display: block;
+    }
+    .index-corpo-card{
+        width: 100%;
+    }
+    #index-ladoDireito{
+        margin-top: 30px;
+    }
+    .cabecalho-cinza{
+        height: 110px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .cabecalho-cinza-completo{
+        display: block;
+    }
+    .linkGoverno-redesSociais{
+        display: block;
+        padding-top: 0px;
+    }
+    #linkGoverno{
+        padding: 0px 0px 0px 0px;
+    }
+    .index-redesSociais{
+        padding-top: 5px;
+    }
+    .links{
+        display: block;
+        padding-top: 5px;
+    }
+    #menuArea{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .rodape-completo{
+        margin: 0px 5px 0px 5px;
+    }
+    #rodape-logo-proderj{
+        height: 55px;
+    }
+    #rodape-logo-governo{
+        height: 75px;
+    }
+    #labels{
+        padding-top: 10px;
+    }
+    #flex{
+        display: block;
+    }
+    .telefone-cpf-nascimento {
+        margin-top: 0px;
+    }
+    #inputs{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #inputs2{
+        margin-bottom: 10px;
+    }
+    #flex-filha{
+        width: 100%;
+    }
+    #flex-filha2{
+        width: 100%;
+    }
+    #textarea{
+        height: 200px;
+    }
+    .back-to-top::after{
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .back-to-top{
+        width: 30px;
+        height: 28px;
+    }
+    .hero-image {
+        height: 290px;
+    }
+
+    .link-slider-principal a {
+        font-weight: 600;
+        font-size: 2em !important;
+        bottom: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        position: absolute !important;
+        top: -42px !important;
+    }
+
+}

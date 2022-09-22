@@ -1,0 +1,5 @@
+1 - Crie um diretótio chamado libraries caso nao exista na raiz do site e coloque todas a libraries com dentro com permissão 775
+2 - coloque todos os modules no diretório modules e instale-os, não precisa intlar examples do module flexslider
+3 - descompacte-o e coloque o Tema rjgovconcessao dentro de themes
+4 - Siga todos os passos para criar cada bloco, primeiro siga os passo de tutorial passo a passo  Estrutura blocos, os demias não precisam ser em ordem.
+		

@@ -1,0 +1,43 @@
+# rjgovconcessoa.libraries.yml
+# Arquivo de configurações de libs usadas no tema,
+# como css e javascript, necessário para que estes
+# tipos de arquivos sejam reconhecidos e servidos
+# corretamente pelo framework.
+#
+# author Gianlucca Augusto  <gianlucca.augusto@extreme.digital>
+# version 1.1
+# copyright Proderj 2022.
+
+global-css:
+  version: 1.0
+  css:
+    theme:
+      css/reset.css: {}
+      css/style.css: {}
+      css/menu-superior.css: {}
+      css/contraste.css: {}
+      css/acessibilidade-dropdown.css: {}
+      css/fonts.css: {}
+      css/modificados.css: {}
+      css/poppins.css: {}
+      calendario/css/theme2.css: {}
+global-js:
+  version: 1.0
+  js:    
+    js/main.js: {}
+    calendario/js/caleandar.js: {}
+    calendario/js/demo.js: {}  
+
+    
+
+rjgovconcessao-mask:
+  version: 1.14
+  js:
+    js/mask/dist/jquery.mask.js: { preprocess: false }
+
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
+
+       

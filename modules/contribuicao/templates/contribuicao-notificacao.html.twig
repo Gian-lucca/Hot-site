@@ -1,0 +1,61 @@
+<h2><b>Formulário de Contato</b></h2>
+<p><b>Protocolo</b>: {{ message_body.protocolo }}</p>
+<p><b>Nome</b>: {{ message_body.nome }}</p>
+<p><b>Telefone</b>: {{ message_body.telefone }}</p>
+<p><b>E-mail</b>: {{ message_body.email }}</p>
+
+{# Select Observatório 
+{% if message_body.observatorio == 0 %}
+  <p><b>Observatório</b>: Pacto RJ</p>
+{% elseif message_body.observatorio == 1 %}
+  <p><b>Observatório</b>: RJ para Todos</p>
+{% else %}
+  <p><b>Observatório</b>: Segurança Presente</p>
+{% endif %}#}
+
+{# Select Assunto #}
+{% if message_body.assunto == 0 %}
+  <p><b>Assunto</b>: Sugestões</p>
+{% elseif message_body.assunto == 1 %}
+  <p><b>Assunto</b>: Reclamações</p>
+{% elseif message_body.assunto == 2 %}
+  <p><b>Assunto</b>: Elogios</p>
+{% elseif message_body.assunto == 3 %}
+  <p><b>Assunto</b>: Denúncias</p>
+{% else %}
+  <p><b>Assunto</b>: Dúvidas</p>
+{% endif %}
+<p><b>Mensagem</b>: {{ message_body.mensagem }}</p>
+<p><b>Arquivo(s)</b>: 
+<style>
+/* unvisited link */
+a:link {
+  color: #006aa7;
+  text-decoration:none
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #003757;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #2c3e4c;
+} 
+</style>
+
+{# <ul>
+    {% for file in message_body.arquivo %}
+        <li><a href="{{ file[1] }}" target="_blank">{{ file[0] }}</a></li>
+    {% else %}
+        <li>Nenhum arquivo</li>
+    {% endfor %}
+    
+</ul>#}

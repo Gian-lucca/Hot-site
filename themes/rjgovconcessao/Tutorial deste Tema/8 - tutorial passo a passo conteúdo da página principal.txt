@@ -1,0 +1,97 @@
+////////////////////////////////////PARTE TÉCNICA/////////////////////////
+CRIANDO CONTEÚDO DA PÁGINA	 PRINCIPAL 
+	Estrutura > tipos de conteudo > Novo tipo de conteúdo
+		Nome = Conteúdo Página Principal
+		Nome no sistema: conteudo_pagina_principal
+		Descrição: Conteúdo Único da Página Principal
+		opções de publicaçãoes: Promovido para a página inicial: desmarque essa opção
+		opções de exibição: Exibir informações de autor e de data: desmarque essa opção
+		Configurações de menu: Menus disponiveis: desmarque todos
+	
+	GERENCIAR CAMPO
+		remova o Body
+		Adicinar campo
+			Novo campo: Texto (formatado, longo)
+			Rótulo: Conteúdo Principal
+			Identificador textual ou Indentificação no sistema: field_conteudo_principal
+			Limitado: 1
+			Texto de ajuda: Conteúdo da Página Principal
+			Campo obrigatório: não
+			Adicinar campo
+
+		Novo campo: Arquivo
+			Rótulo: Arquivos Página Inicial
+			Identificador textual ou Indentificação no sistema: field_arquivos_pagina_inicial		
+			Habilitar campo Exibição/Enable Display field: marque esta opção
+			Número de valores permitidos: Ilimitado		
+			Texto de ajuda: Arquivos da página inicial formato PDF ou CSV
+			Campo obrigatório: não
+			Extensões de arquivo permitidas: pdf, csv
+			Diretório de arquivos: arquivos_inicial
+			Tamanho máximo para upload: 5 MB
+			Habilitar campo Descrição: marque esta opção para colocar um nome do arquivo PDF, CSV
+
+	GERENCIAR EXIBIÇÃO
+		Oculte os rótulos de [Conteúdo Principal]
+		
+			
+CRIANDO VIEW DO CONTEÚDO DA PÁGINA PRINCIPAL 
+	Estrutura > Views > add view
+	Nome da View = Conteúdo Página Principal
+	Nome no sistema [Identificador textual] = conteudo_pagina_principal
+	
+	CONFIGURAÇÕES DA VIEW
+		Exibir = conteúdo
+		do tipo = Conteúdo Página Principal
+		ordenado por = mais recente primeiro
+		
+	CONFIGURAÇÕES DO BLOCO
+		Criar um bloco: marque essa opção
+		Título do bloco = Conteúdo Página Principal
+		CONFIGURAÇÕES DE EXIBIÇÃO DE BLOCO
+			Formato de exibição: Grade de: títulos
+		Itens por bloco = 1
+		 Usar um paginador: não
+		
+	Exibições
+		FORMATO
+			Formato:Lista sem formatação
+			
+		Exibir:Campos
+			
+		CAMPOS ADD
+			Conteúdo: Título[escondido]
+			Conteúdo Principal   Aparece em: conteudo_pagina_principal.				
+			Arquivos Pagina Inicial    Aparece em: conteudo_pagina_principal.
+			CONFIGURAÇÕES DE CAMPO MÚLTIPLO
+				Tipo de display:  Lista não-ordenada
+			CONFIGURAÇÕES DE ESTILO
+				Customizar campo HTML
+				 	Elemento HTML: STRONG
+				Criar uma classe CSS
+					Classe CSS: arquivos-principal
+
+ADICIONANDO O CONTEÚDO PRINCIPAL AO BLOCO DO SITE
+	Estrutura > Layout de blocos > Conteúdo Principal
+		Place Block = Escolha o Conteúdo Página Principal: Block -> inserir bloco
+		Desmarque a opção = Exibir título
+	
+	Visibilidade
+		Tipos de conteúdo = não marcar nada
+		Papeis =  não marcar nada
+		Identificador textual = views_block__conteudo_pagina_principal_block
+		Região = Conteúdo Principal 
+		
+					
+////////////////////////////////////PARTE USUAL/////////////////////////			
+Adicionando Conteúdo Página Principal  
+	conteúdo > add conteúdo > Conteúdo Página Principal 
+	Título: titulo do Conteúdo Página Principal  
+	Conteúdo Principal: Conteúdo Página Principal 
+		Formtação: titulo 2
+	ARQUIVOS PAGINA INICIAL
+		Adicionar novo arquivo: arquivo que ira adiocionar nos formatos csv ou pdf
+		Descrição: Descrição do arquivo
+	
+			
+	

@@ -1,0 +1,24 @@
+TUTORIAL PASSO A PASSO BLOCOS
+
+Remova ou desabilite todos esses itens:
+
+	Breadcrumbs
+	Abas
+	Ajuda
+	Principais ações do administrador
+	Buscar
+	Conteúdo da página principal 
+	Ferramentas
+	Mensagens de status
+	Menu de conta de usuário
+	Navegação principal 
+
+Menu Topo
+	Menu Topo
+	
+Logo do Portal
+	Definição de marca do site
+		OBS: ao add este bloco desmarque as seguintes opções: [Exibir título, Nome do site] deixe marcado apenas [Logo do site, Slogan do site]
+	
+Menu Topo Concessao
+	Menu Topo Concessão

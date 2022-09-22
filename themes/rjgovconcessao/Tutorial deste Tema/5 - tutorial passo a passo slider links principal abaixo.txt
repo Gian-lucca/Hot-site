@@ -1,0 +1,108 @@
+////////////////////////////////////PARTE TÉCNICA/////////////////////////
+CRIANDO SLIDER PRINCIPAL ABAIXO
+	Estrutura > tipos de conteudo > Novo tipo de conteúdo
+		Nome = Slider Principal Abaixo
+		Nome no sistema: slider_principal_abaixo
+		Descrição: Slider da página principal
+		opções de publicaçãoes: Promovido para a página inicial: desmarque essa opção
+		opções de exibição: Exibir informações de autor e de data: desmarque essa opção
+		Configurações de menu: Menus disponiveis: desmarque todos
+	
+	GERENCIAR CAMPO
+		remova o Body
+		Add Campo Imagem
+			Rótulo = Imagem 800x450	
+			Nome no sistema [Identificador textual] = field_imagem_slider_abaixo
+			Numeros de Valores permitidos = limitado: 1
+			Campo obrigatório
+			Texto de ajuda:Imagem do Slider Principal Abaixo
+			Diretório do arquivo = slider_principal
+			Tamanho máximo para upload: 1 MB	
+			Campo obrigatório: Sim
+		Add Campo Link
+			Rótulo = Link
+			 Nome no sistema = fild_link_slider_abaixo
+			Número de valores permitidos = limitado:1
+			Texto de ajuda: Url do slider principal abaixo
+			Tipo de link permitido =  Apenas links externos
+			Campo obrigatório: não
+			Permitir texto do link: não	
+	GERENCIAR EXIBIÇÃO
+		Oculte os rótulos de [Imagem, Body]
+		Imagem
+			Clique na engrenagem
+				Estilo da imagem = Configurar Estilos de Imagens
+				Configurar Estilos de Imagens
+					Adicionar estilo da imagem
+					Nome do estilo de imagem = Slider Principal Abaixo 800x450
+					Identificador textual/sistema: slider_principal_abaixo_800x450
+					EFEITO = Redimensionar -> adicionar
+					Largura = 800
+					Altura = 450
+					Salvar
+				Linkar imagem para = nada
+		
+		Links e Linguage deixe na opção desabilitados
+			
+CRIANDO VIEW DO SLIDER SLIDER PRINCIPAL 
+	Estrutura > Views > add view
+	Nome da View = Slider Principal Abaixo
+	Nome no sistema [Identificador textual] = slider_principal_abaixo
+	
+	CONFIGURAÇÕES DA VIEW
+		Exibir = conteúdo
+		do tipo = Slider Principal Abaixo
+		ordenado por = mais recente primeiro
+		
+	CONFIGURAÇÕES DO BLOCO
+		Criar um bloco: marque essa opção
+		Título do bloco = Slider Principal Abaixo
+		CONFIGURAÇÕES DE EXIBIÇÃO DE BLOCO
+			Formato de exibição:FlexSlider de: campos
+		Itens por bloco = 20
+		 Usar um paginador: não
+		
+	Exibições
+		FORMATO
+			Formato:FlexSlider
+				Grupo de campos Nr. 1: Nenhum
+				FLEXSLIDER
+				Pacote de Opções: Default
+				Caption Field: Nenhum
+		Exibir:Campos
+			Conteúdo: Título [escondido]
+		CAMPOS ADD
+		Imagem Imagem 800x450 - Aparece em: slider_principal_abaixo.			
+			Formatador = Flex Slider
+			Estilo da imagem = Slider Principal Abaixo 800x450
+			Linkar imagem para = nada
+		Link - Aparece em: slider_principal_abaixo.
+			Configura campo: Conteúdo: Link
+			Coluna utilizada para a ordenar por clique = uri
+			Formatador = link
+			Limitar comprimento do texto de link: 255
+			CONFIGURAÇÕES DE ESTILO
+				 Criar uma classe CSS
+				 	Classe CSS:link_slider_principal
+			Salvar
+
+ADICIONANDO O SLIDER PRINCIPAL AO BLOCO DO SITE
+	Estrutura > Layout de blocos > Slider Principal Abaixo
+		Place Block = Slider Principal Abaixo: Block -> inserir bloco
+		Desmarque a opção = Exibir título
+	
+	Visibilidade
+		Tipos de conteúdo = não marcar nada
+		Papeis =  não marcar nada
+		Identificador textual = views_block__slider_principal_abaixo_block
+		Região = Slider Principal Abaixo
+		
+					
+////////////////////////////////////PARTE USUAL/////////////////////////			
+Adicionando Slider Principal 
+	conteúdo > add conteúdo > Slider Principal Abaixo
+	Título: titulo do Slider Principal Abaixo
+	Imagem: Imagem que aparecerá no Slider Principal Abaixo
+	
+			
+	

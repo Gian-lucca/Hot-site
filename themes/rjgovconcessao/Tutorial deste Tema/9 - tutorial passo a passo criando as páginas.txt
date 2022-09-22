@@ -1,0 +1,21 @@
+////////////////////////////////////PARTE TÉCNICA USUAL/////////////////////////
+CRIANDO AS PÁGINAS DA CONCESSÃO	
+	Conteúdo > Adicionar Conteúdo
+		Escolha Páginas Simples
+			Título: Título da Página
+			Corpo (Editar resumo): conteúdo da página se houver
+			Título dos arquivos bloco 1: Título do primeiro bloco de arquivos, ex: Grupo 1 - Edital e Anexos
+			ARQUIVOS BLOCO 1: N arquivos neste bloco
+			Título dos arquivos bloco 2: Título do primeiro bloco de arquivos, ex: Grupo 2 - Contrato e Anexos
+			ARQUIVOS BLOCO 2: N arquivos neste bloco
+			Título dos arquivos bloco 3: Título do primeiro bloco de arquivos, ex: Grupo 3 - Manual de Procedimentos da B3
+			ARQUIVOS BLOCO 3: N arquivos neste bloco
+			Título dos arquivos bloco 4: Título do primeiro bloco de arquivos, ex: ERRATA
+			ARQUIVOS BLOCO 4: N arquivos neste bloco
+	
+	Temos no total de 5 Páginas
+		Documentos                   Crie esta pagina com URL ALTENATIVA: /documentos
+		Audiência Pública			 Crie esta pagina com URL ALTENATIVA: /audiencia-publica
+		Formulários					 Crie esta pagina com URL ALTENATIVA: /formularios
+		Publicações Oficiais 		 Crie esta pagina com URL ALTENATIVA: /publicacoes-oficiais
+		Dúvidas e Questionamentos	 Crie esta pagina com URL ALTENATIVA: /duvidas-e-questionamentos

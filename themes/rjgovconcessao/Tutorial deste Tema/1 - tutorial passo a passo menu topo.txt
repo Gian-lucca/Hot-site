@@ -1,0 +1,20 @@
+////////////////////////////////////PARTE TÉCNICA/////////////////////////
+CRIANDO O MENU DO TOPO
+	estrutura > menus > adicionar menu
+		Título: Menu Topo
+		Nome no sistema: menu-topo
+		
+ADICIONANDO O MENU DO TOPO AO BLOCO DO SITE
+	Menu Topo > Place block escolha > Menu Topo
+	Exibir título: Desmarque esta opção  
+	
+
+////////////////////////////////////PARTE USUAL/////////////////////////	
+Adicionando conteudo para este menu OBS todos são links Externos
+	estrutura > menus > Menu Topo > novo link 
+	Título do link do menu: titulo do link
+	Link: URL
+	Habilitado: ok
+	Descrição: ao passar o mouse sobre
+	Exibir expandido: Não
+	Link superior Menu Topo

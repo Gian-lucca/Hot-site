@@ -1,0 +1,38 @@
+# rjgovconcessao.info.yml
+# Arquivo de configurações básicas do tema, necessário
+# para que o tema seja reconhecido pelo framework.
+#
+# author Gianlucca Augusto  <gianlucca.augusto@extreme.digital>
+# version 1.1
+# copyright Proderj 2022.
+
+name: Tema Concessão Proderj
+description: Tema para todas as concessões do Proderj
+type: theme
+version: 1.0.0
+project: 'proderj'
+core_version_requirement: ^8 || ^9
+base theme: classy
+libraries:
+  - rjgovconcessao/global-css
+  - rjgovconcessao/global-js
+  - rjgovconcessao/rjgovconcessao-mask
+  
+regions:
+  menuTopo: 'Menu Topo'
+  logoPortal: 'Logo do Portal'
+  busca: 'Busca'
+  redesSociaisPortal: 'Redes Socias Portal'
+  menuTopoConcessao: 'Menu Topo Concessao'
+  menuTopoConcessao2: 'Menu Topo Concessao Inglês'
+  sliderPrincipal: 'Slider Principal'
+  conteudoPrincipal: 'Conteúdo Principal'
+  SliderResultado: 'Slider Resultado'
+  bannerPrincipal: 'Banner Principal'
+  noticiasPrincipal: 'Noticia Principal'
+  areadeatuacao: 'Área de Atuação'
+  galeriaFotos: 'Galeria de Fotos'
+  videosPrincipal: 'Vídeo Principal'
+  sliderBunner: 'Slider Bunner'
+  sliderPrincipalAbaixo: 'Slider Principal Abaixo'
+  content: 'Desabilitado'

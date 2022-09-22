@@ -1,0 +1,25 @@
+<h2><b>Protocolo do Formulário Para Contato</b></h2>
+<p>Olá {{ message_body.nome }}, segue seu protocolo <b>{{ message_body.protocolo }}</b> referente ao seu contato abaixo:</p>
+
+{# Select Observatório 
+{% if message_body.observatorio == 0 %}
+  <p><b>Observatório</b>: Pacto RJ</p>
+{% elseif message_body.observatorio == 1 %}
+  <p><b>Observatório</b>: RJ para Todos</p>
+{% else %}
+  <p><b>Observatório</b>: Segurança Presente</p>
+{% endif %}#}
+
+{# Select Assunto #}
+{% if message_body.assunto == 0 %}
+  <p><b>Assunto</b>: Sugestões</p>
+{% elseif message_body.assunto == 1 %}
+  <p><b>Assunto</b>: Reclamações</p>
+{% elseif message_body.assunto == 2 %}
+  <p><b>Assunto</b>: Elogios</p>
+{% elseif message_body.assunto == 3 %}
+  <p><b>Assunto</b>: Denúncias</p>
+{% else %}
+  <p><b>Assunto</b>: Dúvidas</p>
+{% endif %}
+<p><b>Mensagem</b>: {{ message_body.mensagem }}</p>

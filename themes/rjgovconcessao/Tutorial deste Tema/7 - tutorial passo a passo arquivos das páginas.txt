@@ -1,0 +1,102 @@
+OBS: será necessário criar até 4 campos para arquivos de páginas com 4 títulos, pois haverá pagina(s)
+com até 4 títulos e outras com nenhum título apenas os arquivos.
+CRIANDO ARQUIVOS PFD E CSV NA PÁGINA
+	Estrutura > Tipos de conteúdo > Páginas Simples > gerenciar campos
+	----Arquivos bloco 1
+		Adicinar campo
+		Novo campo: Texto (simples)
+		Rótulo: Título dos arquivos bloco 1
+		Identificador textual ou Indentificação no sistema: titulo_dos_arquivos_bloco1
+		Comprimento máximo: 255
+		Limitado: 1
+		Texto de ajuda: Título dos arquivos bloco 1
+		Campo obrigatório: não
+	Adicinar campo
+		Novo campo: Arquivo
+		Rótulo: Arquivos bloco 1
+		Identificador textual ou Indentificação no sistema: field_arquivos_bloco_1		
+		Habilitar campo Exibição/Enable Display field: marque esta opção
+		Número de valores permitidos: Ilimitado		
+		Texto de ajuda: Arquivos do bloco 1 formato PDF ou CSV
+		Campo obrigatório: não
+		Extensões de arquivo permitidas: pdf, csv
+		Diretório de arquivos: arquivos_paginas
+		Tamanho máximo para upload: 10 MB
+		Habilitar campo Descrição: marque esta opção para colcoar um nome do arquivo PDF, CSV
+
+	----Arquivos bloco 2
+	Adicinar campo
+		Novo campo: Texto (simples)
+		Rótulo: Título dos arquivos bloco 2
+		Identificador textual ou Indentificação no sistema: titulo_dos_arquivos_bloco2
+		Comprimento máximo: 255
+		Limitado: 1
+		Texto de ajuda: Título dos arquivos bloco 2
+		Campo obrigatório: não
+	Adicinar campo
+		Novo campo: Arquivo
+		Rótulo: Arquivos bloco 2
+		Identificador textual ou Indentificação no sistema: field_arquivos_bloco_2		
+		Habilitar campo Exibição/Enable Display field: marque esta opção
+		Número de valores permitidos: Ilimitado		
+		Texto de ajuda: Arquivos do bloco 2 formato PDF ou CSV
+		Campo obrigatório: não
+		Extensões de arquivo permitidas: pdf, csv
+		Diretório de arquivos: arquivos_paginas
+		Tamanho máximo para upload: 10 MB
+		Habilitar campo Descrição: marque esta opção para colcoar um nome do arquivo PDF, CSV
+	
+	----Arquivos bloco 3
+	Adicinar campo
+		Novo campo: Texto (simples)
+		Rótulo: Título dos arquivos bloco 3
+		Identificador textual ou Indentificação no sistema: titulo_dos_arquivos_bloco3
+		Comprimento máximo: 255
+		Limitado: 1
+		Texto de ajuda: Título dos arquivos bloco 3
+		Campo obrigatório: não
+	Adicinar campo
+		Novo campo: Arquivo
+		Rótulo: Arquivos bloco 3
+		Identificador textual ou Indentificação no sistema: field_arquivos_bloco_3		
+		Habilitar campo Exibição/Enable Display field: marque esta opção
+		Número de valores permitidos: Ilimitado		
+		Texto de ajuda: Arquivos do bloco 3 formato PDF ou CSV
+		Campo obrigatório: não
+		Extensões de arquivo permitidas: pdf, csv
+		Diretório de arquivos: arquivos_paginas
+		Tamanho máximo para upload: 10 MB
+		Habilitar campo Descrição: marque esta opção para colcoar um nome do arquivo PDF, CSV
+	
+	----Arquivos bloco 4
+	Adicinar campo
+		Novo campo: Texto (simples)
+		Rótulo: Título dos arquivos bloco 4
+		Identificador textual ou Indentificação no sistema: titulo_dos_arquivos_bloco4
+		Comprimento máximo: 255
+		Limitado: 1
+		Texto de ajuda: Título dos arquivos bloco 4
+		Campo obrigatório: não
+	Adicinar campo
+		Novo campo: Arquivo
+		Rótulo: Arquivos bloco 4
+		Identificador textual ou Indentificação no sistema: field_arquivos_bloco_4		
+		Habilitar campo Exibição/Enable Display field: marque esta opção
+		Número de valores permitidos: Ilimitado		
+		Texto de ajuda: Arquivos do bloco 4 formato PDF ou CSV
+		Campo obrigatório: não
+		Extensões de arquivo permitidas: pdf, csv
+		Diretório de arquivos: arquivos_paginas
+		Tamanho máximo para upload: 10 MB
+		Habilitar campo Descrição: marque esta opção para colcoar um nome do arquivo PDF, CSV
+
+GERENCIAR EXIBIÇÃO
+	Corpo
+	Título dos arquivos bloco 1 	RÓTULO: Oculto
+	Arquivos bloco 1				RÓTULO: Oculto
+	Título dos arquivos bloco 2 	RÓTULO: Oculto
+	Arquivos bloco 2				RÓTULO: Oculto
+	Título dos arquivos bloco 3 	RÓTULO: Oculto
+	Arquivos bloco 3				RÓTULO: Oculto
+	Título dos arquivos bloco 4		RÓTULO: Oculto
+	Arquivos bloco 4				RÓTULO: Oculto

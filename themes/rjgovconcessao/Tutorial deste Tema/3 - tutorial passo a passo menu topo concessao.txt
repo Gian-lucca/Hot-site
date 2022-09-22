@@ -1,0 +1,64 @@
+////////////////////////////////////PARTE TÉCNICA/////////////////////////
+CRIANDO O MENU DO TOPO CONCESSÃO	
+	estrutura > menus > adicionar menu
+		Título: Menu Topo Concessão
+		Sumário administrativo: Menu Topo Concessão
+		Nome no sistema: menu-topo-concessao
+		
+ADICIONANDO O MENU DO TOPO AO BLOCO DO SITE
+	Menu Topo > Place block escolha > Menu Topo Concessão
+	Exibir título: Desmarque esta opção  
+	
+
+////////////////////////////////////PARTE USUAL/////////////////////////	
+Adicionando conteudo para este menu OBS todos são links Internos
+	estrutura > menus > 
+		Menu Topo Concessão > novo link
+		Menu Topo Concessão > novo link 
+			Título do link do menu: Documentos
+			Link: /documentos
+			Habilitado: ok
+			Descrição: Documentos
+			Exibir expandido: Não marque
+			Link superior: Menu Topo Concessão
+
+		Menu Topo Concessão > novo link 
+			Título do link do menu: Audiência Pública 
+			Link: /audiencia-publica 
+			Habilitado: ok
+			Descrição: Audiência Pública
+			Exibir expandido: Não marque
+			Link superior: Menu Topo Concessão
+
+		Menu Topo Concessão > novo link 
+			Título do link do menu: Formulário Para Contribuições 
+			Link: /formulario-para-contribuicoes
+			Habilitado: ok
+			Descrição: Formulário Para Contribuições
+			Exibir expandido: Não marque
+			Link superior: Menu Topo Concessão
+
+		Menu Topo Concessão > novo link 
+			Título do link do menu: Publicações Oficiais  
+			Link: /publicacoes-oficiais 
+			Habilitado: ok
+			Descrição: Publicações Oficiais 
+			Exibir expandido: Não marque
+			Link superior: Menu Topo Concessão
+
+		Menu Topo Concessão > novo link 
+			Título do link do menu: Dúvidas e Questionamentos
+			Link: /duvidas-e-questionamentos 
+			Habilitado: ok
+			Descrição: Dúvidas e Questionamentos
+			Exibir expandido: Não marque
+			Link superior: Menu Topo Concessão
+
+Após criar os menus coloque-os nesta ordem:
+	Documentos
+	Audiência Pública
+	Formulário Para Contribuições 
+	Publicações Oficiais
+	Dúvidas e Questionamentos
+
+CRIANDO AS PÁGINAS - ACESSO O TUTORIAL PASSO A PASSO PARA CRIAR AS PÁGINAS

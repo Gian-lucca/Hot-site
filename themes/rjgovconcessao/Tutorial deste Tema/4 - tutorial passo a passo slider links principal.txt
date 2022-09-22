@@ -1,0 +1,110 @@
+////////////////////////////////////PARTE TÉCNICA/////////////////////////
+CRIANDO SLIDER PRINCIPAL 
+	Estrutura > tipos de conteudo > Novo tipo de conteúdo
+		Nome = Slider Principal
+		Nome no sistema: slider_principal
+		Descrição: Slider da página principal
+		opções de publicaçãoes: Promovido para a página inicial: desmarque essa opção
+		opções de exibição: Exibir informações de autor e de data: desmarque essa opção
+		Configurações de menu: Menus disponiveis: desmarque todos
+	
+	GERENCIAR CAMPO
+		remova o Body
+		Add Campo Imagem
+			Rótulo = Imagem 1920x400	
+			Nome no sistema [Identificador textual] = field_imagem_slider_principal
+			Numeros de Valores permitidos = limitado: 1
+			Campo obrigatório
+			Texto de ajuda:Imagem do Slider Principal
+			Diretório do arquivo = slider_principal
+			Tamanho máximo para upload: 1 MB	
+			Campo obrigatório: Sim
+		Add Campo Link
+			Rótulo = Link
+			 Nome no sistema = fild_link_slider_principal
+			Número de valores permitidos = limitado:1
+			Texto de ajuda: Url do slider principal
+			Tipo de link permitido =  Apenas links externos
+			Campo obrigatório: não
+			Permitir texto do link: não	
+	GERENCIAR EXIBIÇÃO
+		Oculte os rótulos de [Imagem, Link]
+		Imagem
+			Clique na engrenagem
+				Estilo da imagem = Configurar Estilos de Imagens
+				Configurar Estilos de Imagens
+					Adicionar estilo da imagem
+					Nome do estilo de imagem = Slider Principal 1920x400
+					Identificador textual/sistema: slider-principal-1920x400
+					EFEITO = Redimensionar -> adicionar
+					Largura = 1920
+					Altura = 400
+					Salvar
+				Linkar imagem para = nada
+		
+		Links e Linguage deixe na opção desabilitados
+			
+CRIANDO VIEW DO SLIDER SLIDER PRINCIPAL 
+	Estrutura > Views > add view
+	Nome da View = Slider Principal
+	Nome no sistema [Identificador textual] = slider_principal
+	
+	CONFIGURAÇÕES DA VIEW
+		Exibir = conteúdo
+		do tipo = Slider Principal
+		ordenado por = mais recente primeiro
+		
+	CONFIGURAÇÕES DO BLOCO
+		Criar um bloco: marque essa opção
+		Título do bloco = Slider Principal
+		CONFIGURAÇÕES DE EXIBIÇÃO DE BLOCO
+			Formato de exibição:FlexSlider de: campos
+		Itens por bloco = 20
+		 Usar um paginador: não
+		
+	Exibições
+		FORMATO
+			Formato:FlexSlider
+				Grupo de campos Nr. 1: Nenhum
+				FLEXSLIDER
+				Pacote de Opções: Default
+				Caption Field: Nenhum
+		Exibir:Campos
+			Conteúdo: Título [escondido]
+		CAMPOS ADD
+		Imagem 1688x645 - Aparece em: slider_links_uteis.				
+			Formatador = Flex Slider
+			Estilo da imagem = Slider Principal 1688x645
+			Linkar imagem para = Conteudo
+		Link - Aparece em: slider_principal.
+			Configura campo: Conteúdo: Link
+			marcar opção = Excluir da exibição
+			Coluna utilizada para a ordenar por clique = uri
+			Formatador = link
+			desmarque opção = Somente URL
+			CONFIGURAÇÕES DE ESTILO
+				 Criar uma classe CSS
+				 	Classe CSS:link_slider_principal
+			Salvar
+
+ADICIONANDO O SLIDER PRINCIPAL AO BLOCO DO SITE
+	Estrutura > Layout de blocos > Slider Principal
+		Place Block = Escolha o Slider Principal: Block -> inserir bloco
+		Desmarque a opção = Exibir título
+	
+	Visibilidade
+		Tipos de conteúdo = não marcar nada
+		Papeis =  não marcar nada
+		Identificador textual = views_block__slider_principal_block
+		Região = Slider Principal
+		
+					
+////////////////////////////////////PARTE USUAL/////////////////////////			
+Adicionando Slider Principal 
+	conteúdo > add conteúdo > Slider Principal
+	Título: titulo do Slider Principal 
+	Link: Url
+	Imagem: Imagem que aparecerá no Slider Links Úteis
+	
+			
+	
